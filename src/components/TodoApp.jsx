@@ -36,7 +36,7 @@ const TodoApp = () => {
           placeholder="Add a new todo"
           className="flex-grow mr-2"
         />
-        <Button onClick={addTodo}>
+        <Button onClick={addTodo} className="bg-yellow-400 hover:bg-yellow-500 text-black">
           <Plus className="h-4 w-4 mr-2" /> Add
         </Button>
       </div>
